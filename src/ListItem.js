@@ -27,7 +27,7 @@ const ListItem = (props) => {
 	}
 
 	if (props.action === 'opnion1') {
-		if (checked == true) {
+		if (checked === true) {
 			message = <>
 				<li style={{ display: 'none' }} key={props.id}>{props.name}</li>
 				<input style={{ display: 'none' }} type='checkbox' checked={checked} onChange={handleChacboxChange} />
@@ -35,7 +35,7 @@ const ListItem = (props) => {
 			</>
 		};
 	} else if (props.action === 'opnion2') {
-		if (checked == false) {
+		if (checked === false) {
 			message = <>
 				<li style={{ display: 'none' }} key={props.id}>{props.name}</li>
 				<input style={{ display: 'none' }} type='checkbox' checked={checked} onChange={handleChacboxChange} />

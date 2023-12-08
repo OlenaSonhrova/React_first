@@ -1,6 +1,5 @@
 import './App.css';
 import List from './List';
-import Render from './Render';
 
 function App() {
 
@@ -8,7 +7,6 @@ function App() {
 		<div className="App">
 			<header className="App-header">
 				<List />
-				{/* <Render /> */}
 			</header>
 		</div>
 	);
