@@ -90,7 +90,7 @@ const List = () => {
 				placeholder='new task'
 			/>
 			<p style={{ fontSize: '10px', color: 'grey' }}>Мімальна кількість символів - 3. Максимальна кількість символів - 8.</p>
-			<div>{message}</div>
+			<div style={{ color: 'red' }} >{message}</div>
 			<h2>{items.length}</h2>
 			<button style={{ marginBottom: '30px' }} onClick={() => onClickHanderler(input)}>Add new task</button>
 			<label>Оберіть стан:
