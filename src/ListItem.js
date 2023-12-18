@@ -55,7 +55,3 @@ const ListItem = (props) => {
 
 export default ListItem;
 
-
-
-
-// , display: 'none' 

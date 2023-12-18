@@ -1,27 +1,90 @@
-.App {
-  text-align: center;
+.body {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: center; */
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+	color: red;
+	background-color: #1b1b1b;
+	text-align: center;
+	padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+header {
+	width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+li {
+	border: 3px solid rgb(39, 38, 38);
+	padding: 10px;
+	list-style: none;
+	justify-content:center;
+	border-radius: 10px;
+	background-color: rgba(53, 48, 48, 0.295);
+}
+
+li:hover {
+	background-color: rgba(139, 112, 112, 0.295);
+}
+
+button {
+	padding: 10px;
+	background-color: #8b8e92;
+	border-radius: 20px;
+	font-size: 18px;
+	
+}
+
+.button {
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+input {
+	margin: 10px;
+}
+
+
+label {
+	color: rgba(240, 226, 226, 0.39);
+	font-weight: bold;
+
+}
+
+.label {
+	color: rgba(240, 226, 226, 0.39);
+	font-weight: bold;
+}
+
+span {
+	color: white;
+	font-weight: 400;
+	max-width: 10px;
+}
+
+.buttonsave {
+	padding: 10px;
+	background-color: #971b1b;
+	border-radius: 20px;
+	padding: 0px 60px 0px 60px;
+	font-size: 18px;
+}
+
+.buttonsave:hover {
+	background-color: rgba(240, 226, 226, 0.39);
 }
