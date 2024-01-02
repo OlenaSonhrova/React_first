@@ -9,15 +9,30 @@
 }
 
 h1 {
+	display: block;
 	color: red;
-	/* background-color: #1b1b1b; */
 	background-color: black;
 	text-align: center;
 	padding: 20px;
 }
 
+
+a {
+	color: red;
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
 header {
 	width: 100%;
+	display: flex;
+	background-color: black;
+	justify-content: center;
+	gap: 40px;
 }
 
 ul {
@@ -37,15 +52,9 @@ li {
 
 li:hover {
 	background-color: rgba(139, 112, 112, 0.295);
+	border: 2px solid rgb(39, 38, 38);
 }
 
-button {
-	padding: 10px;
-	background-color: #8b8e92;
-	border-radius: 20px;
-	font-size: 18px;
-	
-}
 
 .button {
 	display: flex; 
@@ -53,22 +62,22 @@ button {
 	align-items: center;
 	flex-direction: column;
 	row-gap: 20px;
-}
+} 
 
-input {
-	margin: 10px;
-}
-
-
-label {
-	color: rgba(240, 226, 226, 0.39);
-	font-weight: bold;
-
+.Delete {
+	background-color: #080808;
+	font-size: 20px;
+	color: red;
+	padding: 11px;
+	font-size: 34px;
+	border:none;
 }
 
 .label {
 	color: rgba(240, 226, 226, 0.39);
 	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
 }
 
 span {
@@ -87,4 +96,23 @@ span {
 
 .buttonsave:hover {
 	background-color: rgba(240, 226, 226, 0.39);
+}
+
+.active {
+	color: rgba(240, 226, 226, 0.39);
+	text-shadow:  1px 1px 1px rgb(252, 251, 251), 0 0 1em rgb(5, 5, 5), 0 0 0.2em rgb(246, 246, 250);
+}
+
+
+.checDeletEdit {
+	display: flex;
+	justify-content: center;
+	gap: 25px
+}
+
+
+.trueChecked {
+	text-decoration: line-through;
+	color: rgba(88, 87, 87, 0.39);
+	background-color: rgb(192, 190, 190);
 }

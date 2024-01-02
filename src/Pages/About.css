@@ -1,0 +1,44 @@
+.aboutUL {
+display: flex;
+flex-direction: column;
+max-width: 200px;
+}
+
+.aboutLI {
+	color: white;
+	background-color: rgb(114, 23, 23);
+	border: 1px solid rgb(87, 5, 5);
+}
+
+.aboutLI::hover {
+	background-color: rgb(87, 5, 5);;
+}
+
+
+h2 {
+	color: rgb(172, 166, 166);
+	padding-left: 30px;
+}
+
+.aboutText {
+	color: rgb(110, 108, 108);
+	padding-left: 30px;
+	font-size: 20px;
+	max-width: 500px;
+}
+
+.about {
+	display: flex;
+}
+
+img {
+	max-width: 300px;
+	object-fit: cover;
+	padding: 0px 30px;
+}
+
+.aboutTextUL {
+	padding-left: 30px;
+	color: rgb(172, 166, 166);
+	font-size: 30px;
+}

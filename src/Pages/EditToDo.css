@@ -1,0 +1,22 @@
+.saveAndBack {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+}
+
+.saveAndBack:hover {
+	background-color: rgba(77, 75, 75, 0.39);
+	color: rgb(170, 168, 168);
+}
+
+
+
+.editTodoInput {
+	padding: 50px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}

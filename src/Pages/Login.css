@@ -1,0 +1,29 @@
+.loginCenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+input {
+	font-size: 20px;
+}
+
+h2 {
+	color: white;
+	font-size: 30px;
+}
+
+.button {
+	padding: 10px 90px;
+	text-decoration: none;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid red; */
+}

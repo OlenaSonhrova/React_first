@@ -1,0 +1,11 @@
+.isActive {
+	color: red;
+}
+
+.navLink {
+	color: blue;
+}
+
+.activeLink {
+	color: rgb(181, 245, 78);
+}
