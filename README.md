@@ -1,9 +1,15 @@
 # DeadRussCounter - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app provides up-to-date information about Russian military losses during the Russo-Ukrainian war. Users can view the total number of enemy personnel killed as well as destroyed military equipment, including tanks, armored vehicles, artillery, and other types of weaponry.
 
 <p align="center">
 <img src="https://github.com/OlenaSonhrova/image/blob/main/DeadRussCounteGif.gif?raw=true" width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<img src="https://github.com/OlenaSonhrova/image/blob/main/DeadRussCounter1.jpg?raw=true" width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/OlenaSonhrova/image/blob/main/DeadRussCounter2.jpg?raw=true" width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/OlenaSonhrova/image/blob/main/DeadRussCounter3.jpg?raw=true" width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<img src="https://github.com/OlenaSonhrova/image/blob/main/DeadRussCounter4.jpg?raw=true" width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+
+A key feature of the app is the ability to check Russian losses on specific dates. Each day is displayed with precise numbers of losses, allowing users to analyze the intensity of combat operations over different periods. This is convenient for those who want to track the progress of Ukrainian forces and receive accurate information about the course of the war.
+
+The app has a simple and intuitive interface that makes it easy to find the necessary data. The information is updated regularly, ensuring that users have the latest statistical data on enemy losses.
+
+The app is designed to support the Ukrainian people, provide truthful information, and raise morale during these challenging times.
 
 
 ## Available Scripts
