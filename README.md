@@ -11,6 +11,19 @@ The app has a simple and intuitive interface that makes it easy to find the nece
 
 The app is designed to support the Ukrainian people, provide truthful information, and raise morale during these challenging times.
 
+# Technologies Used
+
+- react
+- react-dom
+- react-query
+- react-router
+- react-router-dom
+- axios
+- json-server
+- react-scripts
+- web-vitals
+
+
 
 ## Available Scripts
 
