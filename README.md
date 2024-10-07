@@ -73,7 +73,7 @@ To run this project locally, follow these steps:
    Ensure you have Android Studio installed and the Android SDK set up. If you don’t have it installed:
    - Download and install Android Studio.
    - During the installation, make sure you add necessary SDK components such as Android SDK and Android Virtual Device (AVD).
-   - 
+     
 5. Set environment variables:
    
    You need to add the Android SDK paths to your environment variables. For macOS or Linux, add the following to your ~/.bash_profile or ~/.zshrc (or the appropriate shell configuration file):
@@ -102,4 +102,5 @@ This will start the Metro Bundler and install the app on the connected device or
 8. Troubleshooting:
    
    If you encounter errors, check whether all dependencies and tools are installed correctly and make sure your device or emulator is properly connected.
+   
    Once done, your app should run on Android.
