@@ -50,3 +50,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Learn More
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/OlenaSonhrova/react_first.git
